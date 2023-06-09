@@ -20,13 +20,13 @@ public class cashFrame extends javax.swing.JFrame {
 //    static boolean pulsacheck = false;
     
     //value dari frame lain    
-    float totalHargaPulsa = pulsaframe.getTotalHarga();
-    float totalHargaBarang = itemframe.getTotalHarga();
-    float totalHargaToken = tokenframe.getTotalHarga();
+    private float totalHargaPulsa = pulsaframe.getTotalHarga();
+    private float totalHargaBarang = itemframe.getTotalHarga();
+    private float totalHargaToken = tokenframe.getTotalHarga();
     
     //value dari cashframe
-    static float dibayarCashFrame;
-    static float kembalianCashFrame;
+    private static float dibayarCashFrame;
+    private static float kembalianCashFrame;
     
     //cashFrame yang dibuka dari pulsa
     private static boolean cashFramePulsaCheck = false;

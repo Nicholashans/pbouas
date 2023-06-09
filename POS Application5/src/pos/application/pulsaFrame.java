@@ -19,10 +19,10 @@ import javax.swing.JOptionPane;
  */
 public class pulsaFrame extends javax.swing.JFrame implements Pembayaran {
 
-    static float totalHarga;
-    static String nomorKartu;
+    private static float totalHarga;
+    private static String nomorKartu;
     
-    static int currItem;
+    private static int currItem;
     /**
      * Creates new form pulsaFrame
      */

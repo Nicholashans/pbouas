@@ -28,13 +28,13 @@ import javax.swing.table.TableColumnModel;
 public class tesframe extends javax.swing.JFrame implements Pembayaran {
     
     DefaultTableModel dm;
-    int jumlahBelanja = 0;
-    int totalBelanjaan = 0;
+    private int jumlahBelanja = 0;
+    private int totalBelanjaan = 0;
     
-    static float finalTotalBelanja;
+    private static float finalTotalBelanja;
     
     //nyimpan kode-kode barang dari table
-    static ArrayList<Integer> savekodebarang = new ArrayList(); 
+    private static ArrayList<Integer> savekodebarang = new ArrayList(); 
     
     /**
      * Creates new form tesframe

@@ -19,9 +19,9 @@ import javax.swing.JOptionPane;
  */
 public class tokenFrame extends javax.swing.JFrame implements Pembayaran {
 
-    static float totalHarga;
+    private static float totalHarga;
     
-    static int currItem;
+    private static int currItem;
     /**
      * Creates new form tokenFrame
      */

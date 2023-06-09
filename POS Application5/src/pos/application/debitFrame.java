@@ -15,9 +15,9 @@ public class debitFrame extends javax.swing.JFrame {
     tokenFrame tokenframe = new tokenFrame();
     pulsaFrame pulsaframe = new pulsaFrame();
     
-    float totalHargaPulsa = pulsaframe.getTotalHarga();
-    float totalHargaBarang = itemframe.getTotalHarga();
-    float totalHargaToken = tokenframe.getTotalHarga();
+    private float totalHargaPulsa = pulsaframe.getTotalHarga();
+    private float totalHargaBarang = itemframe.getTotalHarga();
+    private float totalHargaToken = tokenframe.getTotalHarga();
     
     //debitFrame yang dibuka dari pulsa
     private static boolean debitFramePulsaCheck = false;
@@ -29,8 +29,8 @@ public class debitFrame extends javax.swing.JFrame {
     private static boolean debitFrameItemCheck = false;
     
     //nyimpan kembalian
-    static float kembalianDebitFrame;
-    static float currBalance;
+    private static float kembalianDebitFrame;
+    private static float currBalance;
     /**
      * Creates new form debitFrame
      */
